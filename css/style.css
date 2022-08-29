@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  min-height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.container {
+  margin: 30px auto;
+  padding: 0 30px;
+}
+
+.grid {
+  background-color: hsl(216, 50%, 16%);
+  font-size: 1.8rem;
+  max-width: 350px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 11px 10px 5px 23px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: 11px 10px 5px 23px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: 11px 10px 5px 23px rgba(0, 0, 0, 0.72);
+}
+
+.card {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img-grid img {
+  width: 100%;
+
+  display: inherit;
+  border-radius: 12px;
+}
+
+.titulo-1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+hr {
+  margin: 10px 1px;
+}
+
+.titulo-2,
+.titulo-3,
+.titulo-4 {
+  color: hsl(215, 51%, 70%);
+}
+.titulo-3 {
+  font-weight: 400;
+}
+.titulo-nombre {
+  margin-left: 5px;
+  color: white;
+}
+
+.titulo-2 {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+.titulo-3,
+.titulo-eth,
+.titulo-nombre,
+.titulo-4 {
+  font-size: 1.1rem;
+}
+
+.titulo-eth {
+  color: hsl(178, 100%, 50%);
+}
+
+.avatar {
+  width: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.eth-day {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-creation {
+  display: flex;
+  justify-content: start;
+
+  align-items: baseline;
+}
+
+.titulo-nombre:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+.titulo-1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.img-grid:hover {
+  cursor: pointer;
+  opacity: 0.4;
+  transition: 0.5s ease;
+}
+
+.titulo-1,
+.titulo-2,
+.titulo-3,
+.titulo-4,
+.titulo-eth,
+.titulo-nombre {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
